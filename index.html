@@ -1,0 +1,39 @@
+<!-- /frontend/public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Booking</title>
+  <link rel="stylesheet" href="/style.css"> <!-- Linking to the CSS file -->
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Restaurant</h1>
+    <p>Book a table and enjoy your meal!</p>
+  </header>
+
+  <section class="booking-form">
+    <h2>Reserve Your Table</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" required>
+
+      <label for="date">Reservation Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Restaurant Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
