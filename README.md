@@ -33,8 +33,10 @@ MongoDB: Database for storing reservation details.
 Prerequisites
 Node.js installed on your machine.
 MongoDB server running locally or in the cloud.
+
 Steps
 Clone the Repository
+https://github.com/AnuragDeepSinha/Restaurant-Table-Booking.git
 
 
 # Install Dependencies
